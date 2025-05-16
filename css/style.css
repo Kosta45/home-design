@@ -1,0 +1,356 @@
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+select {
+  appearance: none;
+  cursor: pointer;
+}
+
+.container {
+  width: 1280px;
+  margin-inline: auto;
+}
+
+.header {
+  margin-bottom: 80px;
+  border-bottom: 1px solid #ebe8f4;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 29px;
+}
+
+.header__logo {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #22202e;
+}
+
+.header__menu-list {
+  display: flex;
+  gap: 44px;
+}
+
+.header__menu-item {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.header__menu-actions {
+  display: flex;
+  gap: 16px;
+}
+
+.header__menu-search {
+  background: url("../images/icons/icon-search.svg") no-repeat center;
+  background-size: contain;
+  padding: 8px;
+}
+
+.header__menu-basket {
+  background: url("../images/icons/icon-shopping.svg") no-repeat center;
+  background-size: contain;
+  padding: 8px;
+}
+
+.header__menu-account {
+  background: url("../images/icons/icon-avatar.svg") no-repeat center;
+  background-size: contain;
+  padding: 8px;
+}
+
+.header__menu-link {
+  color: #726e8d;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__section-title {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 140%;
+  color: #2a254b;
+  margin-bottom: 24px;
+}
+
+.main__filter {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 48px;
+  padding-block: 20px;
+
+  width: 100%;
+}
+
+.main__filter-list,
+.main__sort {
+  display: flex;
+  gap: 16px;
+  margin: 0;
+}
+
+.main__sort {
+  align-items: flex-end;
+  margin-bottom: 13px;
+}
+
+.main__filter-list {
+  gap: 40px;
+}
+
+.main__filter-label {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2a254b;
+}
+
+.main__filter-select,
+.main__sort-select {
+  background-image: url("../images/down.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-right: 16px;
+  border: none;
+}
+
+.main__sort-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #2a254b;
+  margin: 0;
+  margin-right: 36px;
+}
+
+.main__sort-label {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2a254b;
+}
+.main__product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__product-list {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.main__product-item {
+  margin-bottom: 28px;
+}
+
+.main__product-image {
+  margin-bottom: 24px;
+}
+
+.main__product-title {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #2a254b;
+  margin-block: 0px 8px;
+}
+
+.main__product-price {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #2a254b;
+  margin: 0;
+}
+
+.main__product-view {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2a254b;
+  margin-block: 48px 40px;
+  padding: 16px 32px;
+  background-color: #f9f9f9;
+}
+
+.main__join {
+  display: flex;
+  width: 1440px;
+}
+
+.main__join-image {
+  background-image: url("../images/image-2.jpg");
+  background-repeat: no-repeat;
+  min-width: 720px;
+  min-height: 521px;
+}
+
+.main__join-info {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 49px;
+}
+
+.main__join-benefits {
+  margin-bottom: 216px;
+}
+
+.main__join-title {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: #2a254b;
+  margin: 0;
+  margin-block: 71px 21px;
+}
+
+.main__join-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2a254b;
+  margin: 0;
+}
+
+.main__join-sign {
+  width: 120px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+  margin: 0;
+  padding: 16px 32px;
+  background-color: #2a254b;
+}
+
+.footer {
+  margin-inline: auto;
+  width: 1440px;
+  background-color: #2a254b;
+  margin-block: 0;
+}
+
+.footer__content {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  padding-block: 60px;
+  border-bottom: 1px solid #4e4d93;
+  margin-bottom: 24px;
+}
+
+.footer__navigation {
+  display: flex;
+  gap: 100px;
+}
+
+.footer__navigation-type {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__navigation-name {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.footer__navigation-item {
+  margin-bottom: 12px;
+}
+
+.footer__navigation-link {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+}
+
+.footer__extra-info {
+  padding-bottom: 25px;
+}
+
+.footer__extra-rights {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+}
+
+.footer__extra-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__extra-links {
+  display: flex;
+  gap: 24px;
+}
+
+.footer__extra-link {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 8px;
+}
+
+.link-linkedin {
+  background-image: url("../images/icons/logo-linkedin.svg");
+}
+
+.link-facebook {
+  background-image: url("../images/icons/logo-facebook.svg");
+}
+
+.link-instagram {
+  background-image: url("../images/icons/logo-instagram.svg");
+}
+
+.link-skype {
+  background-image: url("../images/icons/logo-skype.svg");
+}
+
+.link-twitter {
+  background-image: url("../images/icons/logo-twitter.svg");
+}
+
+.link-pinterest {
+  background-image: url("../images/icons/logo-pinterest.svg");
+}
