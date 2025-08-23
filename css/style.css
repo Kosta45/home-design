@@ -54,6 +54,7 @@ select {
   margin-bottom: 80px;
   border-bottom: 1px solid var(--border-color);
   position: fixed;
+  width: 100%;
   background-color: var(--background-color);
 }
 
@@ -113,7 +114,7 @@ select {
   background-color: #d5d5fe;
 }
 
-.header__mode-swither-circle {
+.header__mode-switcher-circle {
   position: absolute;
   top: 3px;
   left: 3px;
